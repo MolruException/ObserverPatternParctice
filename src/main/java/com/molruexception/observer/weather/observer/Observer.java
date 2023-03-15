@@ -1,9 +1,10 @@
 package com.molruexception.observer.weather.observer;
 
+import com.molruexception.observer.weather.subject.Subject;
 import org.jetbrains.annotations.NotNull;
 
 public interface Observer {
 
-    void update(@NotNull Observer observer);
+    void update(@NotNull Subject observer);
 
 }

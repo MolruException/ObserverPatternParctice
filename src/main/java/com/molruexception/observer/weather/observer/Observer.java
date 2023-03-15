@@ -5,6 +5,6 @@ import org.jetbrains.annotations.NotNull;
 
 public interface Observer {
 
-    void update(@NotNull Subject observer);
+    void update(@NotNull Subject subject);
 
 }
